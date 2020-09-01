@@ -11,6 +11,7 @@ $('.card').hover(function() {
         $(this).css('width', '20em');
         contador++
     } else {
+        $(this).css('transition', '1s')
         $(this).css('width', '15em');
         contador++
     }
