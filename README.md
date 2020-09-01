@@ -12,5 +12,4 @@
 #### HTML5 / CSS3 / Bootstrap / Javascript / jQuery :) 
 =======
 #### HTML5 / CSS3 / Bootstrap / Javascript :) 
-#### mathcavl.netlify.app
->>>>>>> 0aebfabc11a9fb6d39478345d65e7506757ff6b0
+#### mathcaavl.netlify.app
