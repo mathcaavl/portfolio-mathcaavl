@@ -1,88 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <script src="Js/jQuery.3.5.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="icomoon/style.css">
-    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <title>Mateus Cavalcanti | Web Dev</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/jQuery.3.5.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>@mathcaavl | My website</title>
 </head>
 <body>
-    
-    <header class="header-site">
-        <div class="image-photo">
-            <img src="image/photo-meu.jpg" alt="menu-photo" class="menu-photo">
-        </div>
-        <div class="title-site">
-            <h1 class="title-name">Mateus Cavalcanti</h1>
-        </div>
+
+    <!-- INICIO HEADER -->
+    <header class="main-header">
+        <nav class="navigation-header">
+            <div class="navigation-div-left">
+                <h1>@Mathcaavl - Dev Web</h1>
+            </div>
+            <div class="navigation-div-right">
+                <ul class="navigation-menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li class="me-contrate"><a href="#">Me contrate!</a></li>
+                </ul>
+            </div>
+            <div class="navigation-menu">
+                <input type="checkbox" id="check" class="check-menu">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+        </nav>
     </header>
-    <main class="main-site-content">
-        <div class="apresentation">
-            <h3 class="apresentation-name">Hi, I'm Mateus.</h3>
-            <p class="paragraph-apresentation">Me chamo Mateus Cavalcanti, tenho 22 anos. Atualmente estou cursando Analise e Desenvolvimento de Sistemas, tenho focado meus estudos para o Desenvolvimento Web, mais especificamente para o Front End. Sou completamente apaixonado por JavaScript e por tudo que ele é capaz de fazer.</p>
-            <ul class="app-list">
-                <li><a href="https://github.com/mathcaavl"><span class="icon-github"></a></span></li>
-                <li><a href="https://pt.stackoverflow.com/users/173117/mateus-cavalcanti"><span class="icon-stackoverflow"></a></span></li>
-                <li><a href="https://www.instagram.com/cavalcan7i_/"><span class="icon-instagram"></a></span></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5581987361156&text=Hello!"><span class="icon-whatsapp"></span></a></li>
-            </ul>
+    <!-- FIM HEADER -->
+
+    <!-- INICIO SECTION PRIMARY -->
+    <section class="section-home">
+        <div class="section-home-div-left">
+            <h3>
+                Hi Guys!<br>Me chamo Mateus Cavalcanti.<br>Sou desenvolvedor Web<br>E entusiasta do Front End
+            </h3>
         </div>
-        <div class="apresentation-perfil">
-            <img src="image/apresentation-photo.jpg" class="perfil-apresentation">
-        </div>
-    </main>
-    <section class="portfolios-section">
-        <div class="repositories">
-            <h3><span class="icon-github"></span><p class="repositories-title"> Repositories</p></h3>
-        </div>
-        <div class="card-port">
-          <div class="card" style="width: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Calculadora Javascript</h5>
-              <p class="card-text">Projeto Construindo utilizando HTML5, CSS3 e Javascript</p>
-              <a href="https://github.com/mathcaavl/calculadora-js" class="card-link">Acesse o Repositório</a>
-            </div>
-          </div>
-          <div class="card" style="width: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Agenda Pessoal Online</h5>
-              <p class="card-text">Projeto Construindo utilizando HTML5, CSS3 e Javascript</p>
-              <a href="https://github.com/mathcaavl/agenda-pessoal-online" class="card-link">Acesse o Repositório</a>
-            </div>
-          </div>
-          <div class="card" style="width: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Digital Paper</h5>
-              <p class="card-text">Projeto Construindo utilizando HTML5, CSS3 e Javascript</p><br>
-              <a href="https://github.com/mathcaavl/digital-paper" class="card-link">Acesse o Repositório</a>
-            </div>
-          </div>
-          <div class="card" style="width: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Contador de Data</h5>
-              <p class="card-text">Projeto Construindo utilizando HTML5, CSS3 e Javascript</p><br>
-              <a href="https://github.com/mathcaavl/contador-de-data" class="card-link">Acesse o Repositório</a>
-            </div>
-          </div>
+        <div class="section-home-div-right">
+            <img src="images/main_section_photo.png" alt="photo-section-home" class="photo-home">
         </div>
     </section>
-    <div class="seemore">
-      <div class="vejamais">
-        <a href="https://github.com/mathcaavl"><butoton class="veja-mais">Veja mais!</butoton></a>
-      </div>
-      <footer class="rodape">
-        <h5>&copy; Mateus Cavalcanti</h5>
-    </footer>
-    </div>
-    
-<script type="text/JavaScript" src="Js/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- FIM SECTION PRIMARY -->
+
+    <script type="text/Javascript" src="js/script.js"></script>
 </body>
 </html>
